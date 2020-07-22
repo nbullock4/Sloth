@@ -1,4 +1,4 @@
-package in.at.maven;
+package mavenpackage;
 
 import org.junit.Test;
 
