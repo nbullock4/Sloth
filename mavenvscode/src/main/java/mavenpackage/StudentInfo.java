@@ -25,4 +25,12 @@ public final class StudentInfo{
     void setGender(char gender){
         this.gender = gender;
     }
+    double getFinalTestScore(){
+        if(retakeScore == 0){
+            return (double) testScore;
+        }
+        else{
+            return (testScore + retakeScore) / 2.0;
+        }
+    }
 }
