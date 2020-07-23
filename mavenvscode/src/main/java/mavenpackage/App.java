@@ -48,7 +48,7 @@ public final class App {
             while (itr1.hasNext()){
                 Student student = new Student(); //intitialize student object
                 Row row = itr1.next();
-                Iterator<Cell> cellIterator = row.cellIterator(); 
+                Iterator<Cell> cellIterator = row.cellIterator();
                 while (cellIterator.hasNext()){
                     Cell cell = cellIterator.next();
                     switch (cell.getCellType()){
