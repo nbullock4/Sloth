@@ -125,6 +125,8 @@ public final class App {
         double sum =0; //sum of final test scores
         String major = studentList.get(2).major; //To get comparable string value of computer science major 
         //print out all student objects and final test scores while also adding female computer science majors to array
+        System.out.println("Students : ");
+        System.out.println();
         for(int i =0; i < studentList.size(); i++){
             System.out.println("Student ID: " + studentList.get(i).studentID);
             System.out.println("Major: " + studentList.get(i).major);
